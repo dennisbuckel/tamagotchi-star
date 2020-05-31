@@ -73,6 +73,9 @@ public class Charakter {
     public void updateHp(){
         this.hp= (this.energie+this.sauberkeit+this.hunger);
     }
+    public int getHp(){
+        return this.hp;
 
+    }
 
 }
